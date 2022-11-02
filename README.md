@@ -13,3 +13,9 @@
 - rasa run  --enable-api
 - rasa run --enable-api --cors “*”
 - rasa run -m models --enable-api --cors “*”
+
+##  credentials.yml onfigaration
+socketio:
+  user_message_evt: user_uttered
+  bot_message_evt: bot_uttered
+  session_persistence: true
